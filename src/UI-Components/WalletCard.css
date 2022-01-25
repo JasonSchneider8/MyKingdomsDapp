@@ -1,0 +1,82 @@
+.walletCard {
+	margin: 1rem;
+	border: 1px solid black;
+	border-radius: 5px;
+	z-index: 1000;
+}
+
+
+#button-plot {
+	width: 75px;
+	height: 75px;
+	background-color: #7ce33b;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	margin-left: 20px;
+}
+
+#button-plot-selected {
+	width: 75px;
+	height: 75px;
+	background-color: #a53be3;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+#button-save {
+	width: 175px;
+	height: 55px;
+	background-color: #e0620d;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+#button-withdraw {
+	width: 175px;
+	height: 55px;
+	background-color: #f5c86e;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+#goldmine {
+	position: relative;
+	bottom: 15px;
+	width: 75px;
+	height: 75px;
+	position: relative;
+	margin-left: 16px;
+	margin-top: 10px;
+  }
+
+
+
+  .progress-text {
+	font-size: 10px;
+	position: absolute;
+	color: white;
+	text-shadow: 2px 2px black;
+	bottom: 14px;
+  }
+
+  .progress {
+	position: absolute;
+	bottom: 1px;
+  }
+
+
+
+
+#wallet-card-container {
+    position: absolute;
+    z-index: 200;
+    width: 400px;
+    height: 200px;
+    top: 25px;
+    background: #000000;
+    font-size: 0.8rem;
+    color: #FFFFFFCC;
+	margin-left: 24px;
+	padding: 10px;
+}
+
